@@ -1,5 +1,5 @@
-class LlamaAPIClient:
-    """Synchronous client for Llama API calls"""
+class APIClient:
+    """Synchronous client for  API calls"""
     
     def __init__(self, base_url: str, timeout: int = 60):
         self.base_url = base_url
